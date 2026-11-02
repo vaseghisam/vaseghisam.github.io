@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vaseghisam.github.io/sitemap.xml
