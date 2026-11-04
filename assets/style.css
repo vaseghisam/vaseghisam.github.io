@@ -65,7 +65,7 @@ h1, h2, h3, p { margin-top: 0; }
 .stat strong { color: var(--ink); font: 1.3rem var(--serif); }
 .papers-section { padding-block: 95px 115px; scroll-margin-top: 20px; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; }
-.section-heading h2, .about-grid h2 { font: 500 clamp(2.5rem, 4vw, 4rem)/1.1 var(--serif); letter-spacing: -.05em; margin: 10px 0 0; }
+.section-heading h2 { font: 500 clamp(2.5rem, 4vw, 4rem)/1.1 var(--serif); letter-spacing: -.05em; margin: 10px 0 0; }
 .section-heading > p { color: var(--muted); max-width: 310px; margin-bottom: 5px; font-size: .86rem; }
 .browse-tools { margin: 38px 0 24px; border-top: 1px solid var(--line); padding-top: 25px; }
 .search-label { display: block; max-width: 540px; font-size: .72rem; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
@@ -86,6 +86,7 @@ input[type=search] { width: 100%; height: 48px; margin-top: 9px; border: 1px sol
 .card-abstract { color: #58656b; font-size: .85rem; line-height: 1.6; }
 .card-bottom { margin-top: auto; padding-top: 22px; display: flex; justify-content: space-between; gap: 15px; border-top: 1px solid var(--line); font-size: .72rem; }
 .card-bottom > span { color: var(--muted); }
+.card-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px 14px; }
 .card-bottom a { text-decoration: none; font-weight: 750; text-align: right; }
 .no-results { padding: 35px; background: var(--white); }
 .about-section { background: #e8eeea; padding-block: 85px 105px; scroll-margin-top: 20px; }
@@ -94,16 +95,16 @@ input[type=search] { width: 100%; height: 48px; margin-top: 9px; border: 1px sol
 .site-footer { background: var(--deep); color: #e2e8e5; padding-block: 45px 55px; }
 .footer-grid { display: grid; grid-template-columns: 1fr 1.3fr .8fr; gap: 50px; font-size: .75rem; }
 .footer-grid p { margin: 0; }
-.footer-grid a { color: #b9d8d3; }
+.footer-grid a { color: #b9d8d3; overflow-wrap: anywhere; }
 .site-footer .muted { color: #9eafaf; }
-.article-shell { padding-block: 43px 95px; }
-.breadcrumb { display: flex; gap: 12px; color: var(--muted); font-size: .75rem; margin-bottom: 65px; }
+.article-shell { padding-block: 30px 95px; }
+.breadcrumb { display: flex; gap: 12px; color: var(--muted); font-size: .75rem; margin-bottom: 24px; }
 .breadcrumb a { color: var(--accent-dark); }
-.article-heading { max-width: 930px; margin-bottom: 64px; }
-.article-heading h1 { font: 500 clamp(2.9rem, 5.2vw, 5.1rem)/1.1 var(--serif); letter-spacing: -.048em; margin: 16px 0 25px; }
-.byline { color: var(--muted); font-size: .89rem; }
-.byline span { padding: 0 9px; }
-.article-layout { display: grid; grid-template-columns: minmax(0, 1fr) 295px; gap: clamp(40px, 7vw, 100px); align-items: start; border-top: 1px solid var(--line); padding-top: 40px; }
+.article-heading { max-width: 930px; margin-bottom: 26px; }
+.article-heading h1 { font: 500 clamp(2rem, 4vw, 3.6rem)/1.13 var(--serif); letter-spacing: -.04em; margin: 12px 0 14px; }
+.byline { color: var(--muted); font-size: .89rem; margin-bottom: 0; }
+.byline-separator { padding: 0 9px; }
+.article-layout { display: grid; grid-template-columns: minmax(0, 1fr) 295px; gap: clamp(40px, 7vw, 100px); align-items: start; border-top: 1px solid var(--line); padding-top: 24px; }
 .article-main h2 { font: 500 2rem var(--serif); letter-spacing: -.035em; margin-bottom: 20px; }
 .abstract { max-width: 740px; font: 1.14rem/1.78 var(--serif); color: #30414a; margin-bottom: 65px; }
 .keywords { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 60px; }
@@ -143,10 +144,10 @@ input[type=search] { width: 100%; height: 48px; margin-top: 9px; border: 1px sol
   .paper-grid { grid-template-columns: 1fr; }
   .paper-card { min-height: 0; }
   .card-bottom { flex-wrap: wrap; }
-  .article-shell { padding-top: 28px; }
-  .breadcrumb { margin-bottom: 43px; }
-  .article-heading { margin-bottom: 43px; }
-  .article-heading h1 { font-size: clamp(2.5rem, 11vw, 3.5rem); }
+  .article-shell { padding-top: 20px; }
+  .breadcrumb { margin-bottom: 16px; }
+  .article-heading { margin-bottom: 20px; }
+  .article-heading h1 { font-size: clamp(1.8rem, 7vw, 2.5rem); }
   .abstract { font-size: 1.04rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .paper-card { transition: none; } }
