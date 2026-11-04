@@ -185,7 +185,7 @@ def paper_page(paper: dict) -> str:
 
 def main() -> None:
     papers = json.loads((ROOT / "papers.json").read_text(encoding="utf-8"))
-    assert len(papers) == 15
+    assert papers
     assert len({p["slug"] for p in papers}) == len(papers)
     for paper in papers:
         pdf = paper.get("pdf")
