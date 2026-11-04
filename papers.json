@@ -17,7 +17,9 @@
       "commutator",
       "ordered cumulant"
     ],
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "For a finite qubit chain with bounded nearest-neighbor interactions, split the interaction sum into its odd and even bond layers \\(A\\) and \\(B\\). We compare the logarithmic trace gap \\(F(\\beta)=\\log\\{\\tau(e^{\\beta A}e^{\\beta B})/\\tau(e^{\\beta(A+B)})\\}\\) with \\(\\mathcal{E}=\\tau([A,B]^*[A,B])\\), where \\(\\tau\\) is the normalized trace. If every bond has operator norm at most \\(J\\), then \\(\\beta^4\\mathcal{E}/48\\le F(\\beta)\\le\\beta^4\\mathcal{E}/16\\) for \\(0\\le\\beta J\\le 1/16000\\). The constants and interval are independent of chain length and remain valid when local commutator contributions nearly cancel. The proof retains two occurrences of the full commutator in an ordered-cumulant expansion before applying local estimates. A spanning-tree bound and a matrix row-and-column estimate then control the full Taylor remainder relative to \\(\\mathcal{E}\\). The result gives a one-step partition-function certificate and a converse on the stated high-temperature interval. An exactly solvable four-site example illustrates the role of cancellation.",
+    "teaser": "A two-sided estimate controls the Golden–Thompson gap in a qubit chain at high temperature. The bounds depend on the commutator of the two bond layers and hold uniformly in the chain length."
   },
   {
     "slug": "brascamp-lieb-scaling",
@@ -36,7 +38,8 @@
       "convergence"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "We give a proof of full convergence of the prescribed Brascamp–Lieb scaling flow for every feasible real datum with positive real weights, answering Question 2.10 of Bez, Gauvan, and Tsuji. The limit is geometric, and the sequence of complete scaling iterations has finite length in the product Frobenius norm. Stacking the matrices with square-root weights identifies the two normalizations with nearest-point projections onto a product of scaled row-Stiefel manifolds and a column-Stiefel manifold. The result then follows from the asymptotic normalization theorem of Bez, Gauvan, and Tsuji and the established local alternating-projection theory of Noll and Rondepierre. We also give a direct verification of the descent conditions of Attouch, Bolte, and Svaiter. The one-dimensional-output recurrence agrees with the prescribed-norm frame algorithm studied by Zhu and Li. An explicit feasible example has infinite interleaved half-step length and error of order \\(k^{-1/2}\\), clarifying the scope of the complete-iteration conclusion."
   },
   {
     "slug": "spectral-rounding-orthogonal-synchronization",
@@ -54,7 +57,8 @@
       "spectral rounding"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Spectral methods for orthogonal synchronization relax the orthogonality constraints and round the blocks to the orthogonal group. We bound the objective value after this rounding in terms of the spectral relaxation. On any finite connected weighted graph with labels in \\(\\mathrm{O}(r)\\), let \\(\\gamma\\) be the normalized scalar Laplacian gap and let \\(\\Lambda_r\\) be the sum of the lowest \\(r\\) normalized connection Laplacian eigenvalues. Nearest-orthogonal rounding of the degree-normalized bottom spectral frame gives normalized squared-Frobenius frustration \\(\\nu(Q)\\le(3+12/\\gamma)\\Lambda_r/r\\). The coefficient is independent of \\(r\\) and depends on the graph only through \\(\\gamma\\). The proof controls the positive magnitudes of the spectral blocks through a classical matrix absolute-value inequality, graph Poincaré and the frame’s second-moment normalization. We compare this certificate with the dimension-dependent connection-Cheeger bound and two dimension-independent optimum-relative estimates: a Frobenius perturbation deduction with graph dependence and a comparison using the next connection eigenvalue. No closeness to a consistent assignment is assumed."
   },
   {
     "slug": "cyclovariety-mahler-measures",
@@ -92,7 +96,9 @@
       "idempotent probability laws"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "For every \\(C>2\\), a probability law on a finite group with sufficiently small self-convolution defect is within \\(C\\) times that defect of the uniform law on a subgroup, in full \\(\\ell^1\\) norm. The threshold depends only on \\(C\\), independently of the group, and no symmetry or commutativity assumption is required. The coefficient \\(2\\) cannot hold at any universal positive threshold. The proof obtains approximate stochastic factors from the corrected small-projection theorem of Zippin, then uses translation invariance to recover an exact permutation action and a partition into subgroup cosets. A local estimate converts this coarse approximation into the linear bound. We give an explicit sufficient threshold for \\(C=4\\) and separate the nonabelian reconstruction from the abelian consequence of Saeki’s norm-gap theorem.",
+    "teaser": "On a finite group, a probability law with a small self-convolution defect is close to the uniform law on a subgroup. The threshold is uniform across finite groups."
   },
   {
     "slug": "systematic-gibbs-scans",
@@ -110,7 +116,9 @@
       "entropy contraction"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Let \\(P_1,\\ldots,P_n\\) be the single-site heat-bath operators of a finite probability law. Suppose that \\(\\operatorname{Ent}_{\\mu}(g^2)\\le L\\sum_i\\lVert(I-P_i)g\\rVert_2^2\\) and that each update fails to commute with at most \\(\\Delta\\) others. We prove that every ordered sweep contracts entropy by a factor at most \\(L\\Delta^2/(1+L\\Delta^2)\\). Approximate tensorization with constant \\(C\\) and a lower bound \\(b\\) on positive full one-site conditional probabilities gives \\(L=C[2+2\\log(1/b)]\\). The estimate permits constrained support and prescribed orders that vary between sweeps. Only full one-site conditional probabilities are bounded below; no lower bound under arbitrary partial conditioning is required. The proof follows square roots of the evolving densities, bounds their terminal local residuals using commutation, and charges their squared movement to entropy loss. Applied to the established fully frustrated hypercube Ising model with \\(n=2^d\\) sites and fixed inverse temperature \\(0<a<1/2\\), the estimate gives \\(O_a(d^{5/2}\\log(n/\\varepsilon))\\) complete sweeps from every starting state, uniformly over prescribed update orders. We compare this conclusion with consequences of earlier proofs and with the faster bound available for a chosen checkerboard order.",
+    "teaser": "The paper bounds how much entropy a full Gibbs sweep can retain, using a functional inequality and the number of updates that fail to commute. The bound holds for every prescribed order."
   },
   {
     "slug": "dual-total-correlation-box-bound",
@@ -128,7 +136,9 @@
     ],
     "doi": "10.5281/zenodo.23771577",
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Let \\(S\\) be a finite nonempty set in a product of \\(d\\) coordinate spaces, and let \\(\\mathrm{U}_S\\) be its uniform law. We prove that some nonempty Cartesian box \\(B\\) satisfies \\[|S\\triangle B|\\le 10\\operatorname{DTC}(\\mathrm{U}_S)|S|,\\] where dual total correlation is computed using natural logarithms. The constant does not depend on the dimension or on the coordinate alphabets. The proof follows actual coordinate slices: their average disagreement is bounded linearly by mutual information, while an exact entropy identity retains the deficit available within each slice. Selecting one slice with both costs controlled makes the induction close with the same constant. The resulting Loomis–Whitney stability estimate has coefficient \\(20(d-1)\\) under the usual normalized near-equality assumption. A two-point example shows that linear dependence on \\(d\\) is necessary in that normalization. The constants are not claimed sharp.",
+    "teaser": "Dual total correlation controls how far a finite set is from a Cartesian box. The bound has a constant independent of the dimension and the coordinate alphabets."
   },
   {
     "slug": "bottcher-wenzel-stability",
@@ -146,7 +156,8 @@
       "stability"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "The Böttcher–Wenzel inequality bounds the squared Frobenius norm of the commutator of two Frobenius-unit matrices by two. Its real equality cases consist of pairs supported on a common two-dimensional subspace, with traceless, orthogonal restrictions. We give a direct proof that a real pair whose squared commutator norm is \\(2-\\delta\\) lies within \\(C\\sqrt{\\delta}\\) of such an equality pair, where \\(C\\) is independent of the matrix size. The distance uses the product Frobenius norm, neither matrix is required to be symmetric or normal, and no smallness assumption is imposed on the deficit. The exponent \\(1/2\\) is optimal, already in dimension three. The proof begins with Audenaert’s singular-value refinement, which provides a common subspace of dimension at most eight on which both matrices can be compressed. The retained commutator is orthogonal to the terms linear in the compression errors, so the normalized compressed pair has deficit of order \\(\\delta\\). The remaining fixed-dimensional estimate follows from an explicit second-variation calculation: the deficit grows quadratically in directions transverse to the equality set. Compactness completes this estimate, and the compression argument combines only the constants for dimensions two through eight. The resulting universal constant is existential."
   },
   {
     "slug": "rubiks-cube-return-moments",
@@ -165,7 +176,9 @@
       "spectral moments"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Consider the random walk on the standard \\(3\\times3\\times3\\) Rubik’s Cube that independently chooses one of the eighteen face turns with equal probability. Let \\(N\\) denote the number of legal configurations and let \\(T_e\\) be the first hitting time of the solved configuration, including time zero. We give the certified bounds \\[1.0728316<\\frac{\\mathbb{E}_{\\pi}T_e}{N}<1.0729459.\\] The same outward-rounded interval holds for \\(\\mathbb{E}_xT_e/N\\) for every configuration whose face-turn distance from solved is at least thirteen. The proof combines the established Green-function hitting-time identity with a degree-six polynomial resolvent certificate, exact return-word counts through length twelve, and a symmetry-averaged diameter estimate giving a spectral gap of at least \\(1/600\\). The return counts were previously published in OEIS A061713 and are reproduced here by two independently implemented enumerations; all final inequalities use rational arithmetic. The certificate uses the classical matrix-moment framework to obtain an explicit finite-cube bound without computing the full spectrum or simulating rare solutions.",
+    "teaser": "The paper certifies a narrow interval for the mean time for random face turns to solve a Rubik’s Cube from a uniformly chosen configuration. The proof uses exact return counts and a polynomial certificate."
   },
   {
     "slug": "partial-gaussian-splitting",
@@ -184,7 +197,9 @@
     ],
     "doi": "10.5281/zenodo.23807328",
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Let \\(\\mu=e^{-V}\\,dx\\) be a smooth probability measure on \\(\\mathbb{R}^n\\) with \\(\\nabla^2V\\succeq I_n\\). For \\(1\\le k\\le n\\), suppose that \\(u_1,\\ldots,u_k\\) are centered, variance-one Sobolev functions whose \\(k\\) gradients are orthogonal in \\(L^2(\\mu)\\), and let \\[D=\\sum_{i=1}^k\\left(\\int|\\nabla u_i|^2\\,d\\mu-1\\right).\\] We prove that there is a \\(k\\)-dimensional subspace \\(E\\) for which the squared quadratic Wasserstein distance from \\(\\mu\\) to the product of a standard Gaussian on \\(E\\), translated by the projected mean, and the actual marginal of \\(\\mu\\) on \\(E^\\perp\\) is at most \\(15D\\). The estimate has no ambient-dimension factor and requires no smallness assumption on \\(D\\). The proof combines the Caffarelli contraction and Gaussian near-affinity estimates with a simultaneous selection of \\(k\\) directions and an explicit coupling that preserves the complementary marginal.",
+    "teaser": "Nearly extremal directions for the Poincaré inequality yield an approximate Gaussian factor in quadratic Wasserstein distance. The estimate has no ambient-dimension factor."
   },
   {
     "slug": "hidden-star-networks",
@@ -202,7 +217,9 @@
       "identifiability"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Consider a network with labelled boundary terminals and unobserved interior vertices, each connected to every terminal, with no other edges in the network. On an edge incident to interior vertex \\(c\\), the current law is \\(a_{ci}(v+\\lambda_c v^3)\\), where \\(a_{ci}>0\\) and the positive ratio \\(\\lambda_c\\) is shared by all edges at that vertex. For two or more interior vertices, the differential boundary response at zero has a continuous ambiguity in the conductances. We prove that the response at zero together with the differential response at one nonzero, single-terminal bias determines all conductances and cubic ratios up to permutation of the interior vertices. The sufficient conditions are full column rank of two boundary-profile matrices and distinct component ratios in a matrix pencil. For a fixed nonzero bias, these conditions hold on an open dense set of full measure when each profile block has at least as many terminals as interior vertices. The proof combines differential-conductance reduction and established simultaneous diagonalization with an explicit recovery of physical scales. A two-center, five-terminal example illustrates every stage of the inverse. The result concerns exact differential data and the stated cubic network class; it makes no uniform stability or optimal terminal-count claim.",
+    "teaser": "For a cubic network with hidden star centers, differential boundary responses at zero and one nonzero bias determine the conductances and cubic ratios under stated conditions."
   },
   {
     "slug": "arboreal-height-cubic-squares",
@@ -220,7 +237,9 @@
       "algebraic integers"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "The arboreal height of a totally real algebraic integer is the least height of a finite rooted tree having it as an adjacency eigenvalue. Let \\(\\alpha=\\lambda^2\\) be a totally positive algebraic integer of degree three, and suppose that each open gap between consecutive conjugates of \\(\\alpha\\) contains an integer. We prove that \\(\\lambda\\) has arboreal height at most three. Together with Schaeffer’s height-two criterion, this gives exact height two when the minimal polynomial of \\(\\alpha\\) has a root modulo two, and exact height three otherwise. The proof uses interpolation to express additive inverses as finite nonnegative integer combinations of star resolvents. Salez’s affine identity supplies inverses at the next branching level, where a cubic polynomial identity completes the construction. All intermediate branches are invertible at the prescribed eigenvalue. A dilation corollary determines the height of every sufficiently large integer multiple of a square root of an arbitrary totally positive cubic algebraic integer.",
+    "teaser": "For totally positive cubic algebraic integers with an integer in each conjugate gap, the paper determines the arboreal height of their square roots."
   },
   {
     "slug": "integer-necklace-ring",
@@ -239,7 +258,9 @@
       "ideal contraction"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Let \\(R=\\operatorname{Nr}(\\mathbb{Z})\\) be the integer necklace ring and let \\(B=\\prod_{n\\ge1}\\mathbb{Z}\\) be its ghost product. We study ideal radicals and the ordinary prime spectrum through this embedding. For every ideal \\(I\\subseteq R\\), we prove \\((IB\\cap R)^2\\subseteq I\\). It follows that radicals contract and every prime of \\(R\\) lifts to \\(B\\). We characterize the coordinatewise gcd profiles of finite ghost families by truncated valuation conditions and show that two ghosts realize every such profile. Consequently every finitely generated ideal of \\(R\\) has arithmetical rank at most two. The profiles give an arithmetic presentation of the lattice of quasicompact Zariski opens and of the spectrum, including specialization and the patch topology. A least compatible multiple construction gives infinitary divisibility criteria for equality and containment of ambient prime contractions. We also classify the primes closed in the necklace coordinate topology and describe all ambient primes above each of them. The resulting account distinguishes the full ordinary spectrum from its coordinate-topology-closed part and relates both to the known positive-characteristic and \\(p\\)-adic constructions.",
+    "teaser": "The ghost embedding of the integer necklace ring gives a way to recover ideal radicals and describe the prime spectrum. Every finitely generated ideal has arithmetical rank at most two."
   },
   {
     "slug": "cyclovariety-mahler-exposition",
@@ -255,7 +276,9 @@
       "expanded exposition"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "For the cyclovarieties \\(C_k\\) of Cornelissen, Hokken and Ringeling, we prove \\[m(C_k)\\ge\\frac{1}{6}\\log k-\\frac{1}{4}+\\frac{1}{3k}-\\frac{1}{12k^2}\\qquad(k\\ge2).\\] Together with the known upper bound, this gives uniform logarithmic growth and proves their Conjecture 9.2.1 for every odd integer \\(n>1\\). This exposition develops the proof from its algebraic, analytic and probabilistic ingredients. We explain how cyclotomic coordinates preserve additive relations, derive the extra-variable Jensen identity with its integrability justification, count the second and fourth moments exactly, and obtain both a uniform comparison and the explicit lower bound. The monomials may be dependent. Figures illustrate the exact constructions and estimates; no numerical experiment is used as evidence for the theorem.",
+    "teaser": "An expanded account of the cyclovariety Mahler measure bound, with worked examples and figures explaining the cyclotomic coordinates, Jensen identity, and moment count."
   },
   {
     "slug": "environmental-records-bell-measurements",
@@ -274,7 +297,8 @@
       "conditional total correlation"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Environmental records can be individually accurate while sharing the same errors. We show how retained coherence can quantify this conditional dependence without reconstructing the joint record distribution. For a balanced two-qubit state supported on \\(\\operatorname{span}\\{\\lvert00\\rangle,\\lvert11\\rangle\\}\\), we derive the sharp compatibility boundary between a retained Clauser–Horne–Shimony–Holt (CHSH) value, the accuracy of \\(R\\) designated local binary records, and their conditional total correlation. The full extremum reduces to a convex problem in \\(R+1\\) Hamming-weight probabilities, and every boundary value has a quantum realization with an unobserved remainder. Its inverse gives the least dependence compatible with Bell data and separate record calibrations. For two records it is explicit; at fixed accuracy, a fixed positive Bell excess requires dependence growing at least linearly with record count. Independent monitoring reaches the zero-dependence boundary in a Lindblad dephasing limit. A shared-memory Lindblad process instead improves record accuracy at constant Bell value, with an exact time after which dependence becomes certifiable. The result quantifies departures from conditional independence in environmental recording, under trusted state-sector and readout assumptions."
   },
   {
     "slug": "smooth-integer-sampling",
@@ -294,7 +318,9 @@
       "rejection sampling",
       "prime factorization"
     ],
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Given integers \\(2\\le y\\le X\\), we consider the generation of an integer chosen nearly uniformly from the \\(y\\)-smooth integers at most \\(X\\), together with its complete prime factorization. We give an unconditional algorithm using fair random bits whose output law is within total variation \\(2^{-h}\\) of uniform and whose expected bit complexity is bounded by a fixed polynomial in \\(\\lceil\\log_2 X\\rceil+h\\), uniformly in \\(y\\). The algorithm requires no prime list, smooth-number counting oracle, saddle-point evaluation or general integer-factorization routine. Its construction combines tilted independent geometric prime exponents with sparse proposals over dyadic integer intervals. An explicitly filtered grid contains a useful tilt without computing it. Uniform smooth-number estimates give polynomial acceptance, and certified finite-precision primitives preserve both the distributional guarantee and the expected work bound. Every returned integer and its displayed prime factorization are exact; the approximation concerns only the sampling distribution. The guarantee concerns expected bit complexity; no practical running-time comparison is asserted.",
+    "teaser": "An algorithm samples smooth integers nearly uniformly and returns their exact prime factorizations. Its expected bit complexity is polynomial in the input size and the requested precision."
   },
   {
     "slug": "positive-factorization-cost",
@@ -314,7 +340,9 @@
       "deterministic construction",
       "absolutely summable operators"
     ],
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "For a positive-semidefinite matrix, the sum of the squared \\(\\ell_1\\) norms of its positive rank-one factors is at least the entrywise absolute sum of the matrix. We construct rational orthogonal projectors for which the minimum factorization cost exceeds this lower bound by a growing factor. Applying the deterministic almost Euclidean subspaces of Guruswami, Lee and Razborov gives an algorithm using polynomially many bit operations in the matrix dimension \\(n\\), with ratio at least \\(\\sqrt n\\exp[-O(\\log\\log n\\,\\log\\log\\log n)]\\). The estimate holds for both real and complex factorizations. The proof uses the fact that positivity confines every factor to the projector range, together with a trace estimate; complexification preserves the subspace inequality without loss. An elementary construction from additive characters of the cubic graph over \\(\\mathbb{F}_q\\), where \\(q=2^s\\), gives rank-\\(q\\) projectors in dimension \\(q^2\\) with ratio at least \\(q^{1/2}/3\\). These elementary projectors also specify a rational positive operator with absolutely summable entries for which every countable positive rank-one factorization has infinite total squared \\(\\ell_1\\) cost.",
+    "teaser": "Explicit rational projectors show that the cost of a positive rank-one factorization can exceed the entrywise matrix norm by a growing factor."
   },
   {
     "slug": "recovery-without-a-declining-opponent",
@@ -335,6 +363,7 @@
       "structural identifiability",
       "phenomenological modeling"
     ],
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "An improvement in overall affinity need not mean that an unsettling response has declined: a positive contribution may instead come to outweigh a growing opponent. This note examines that possibility in a bounded two-state model motivated by the uncanny valley. It distinguishes Mori's appearance continuum from the evolution of a response during a fixed exposure. With separate positive rates for acquisition, loss, opponent recruitment and removal, both states increase from a neutral start. Their ratio is strictly increasing when \\(ab\\le(a+d)^2\\) and has one maximum when \\(ab>(a+d)^2\\). In the latter regime, a defined interval of observation weights produces an initial rise, a negative excursion and a return above baseline. A worked example and a complete proof describe how this reversal of relative dominance occurs. A comparison with two real linear decay modes establishes a limited response distinction without selecting a unique mechanism. The measurement analysis also separates parameter uniqueness from prediction: exact opponent and mixed-response traces determine the reduced dynamics despite an unresolved scale of the positive component. The state architecture and general mathematical methods have established precedents, which are identified explicitly. The result is a conditional account of what this model permits, with synthetic illustrations and no participant experiments or empirical parameter fits. It does not establish that the latent components describe human familiarity or eeriness."
   }
 ]
