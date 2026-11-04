@@ -72,7 +72,9 @@
       "roots of unity"
     ],
     "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Let \\(C_k\\) be the cyclovariety associated with all \\(k\\)-th roots of unity in the construction of Cornelissen, Hokken and Ringeling. We prove, for every integer \\(k\\ge2\\), \\[m(C_k)\\ge\\frac{1}{6}\\log k-\\frac{1}{4}+\\frac{1}{3k}-\\frac{1}{12k^2}.\\] Together with the known upper bound, this gives \\(m(C_k)\\asymp\\log k\\) uniformly in \\(k\\), and proves their Conjecture 9.2.1 for every odd integer \\(n>1\\). The proof combines Jensen’s formula, an elementary count of balanced quadruples of roots of unity, and the classical second-moment tail inequality. Only the second and fourth moments of the associated Laurent polynomial are needed; no independence among its monomials is assumed.",
+    "teaser": "A uniform logarithmic lower bound for the Mahler measure of cyclovarieties proves the odd-integer case of Cornelissen, Hokken and Ringeling’s conjecture."
   },
   {
     "slug": "finite-group-idempotence",

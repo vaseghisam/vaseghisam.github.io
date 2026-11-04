@@ -71,7 +71,9 @@ def footer() -> str:
 def card(paper: dict) -> str:
     href = f"/papers/{quote(paper['slug'])}/"
     abstract = paper["abstract"]
-    teaser = abstract[:250].rsplit(" ", 1)[0] + "…" if len(abstract) > 250 else abstract
+    teaser = paper.get("teaser")
+    if teaser is None:
+        teaser = abstract[:250].rsplit(" ", 1)[0] + "…" if len(abstract) > 250 else abstract
     pdf = paper.get("pdf")
     pdf_link = (
         f'<a href="{href}{quote(pdf)}" type="application/pdf" '
@@ -166,6 +168,12 @@ def paper_page(paper: dict) -> str:
     )
     note = f'<p class="record-note">{esc(paper["status_note"])}</p>' if paper.get("status_note") else ""
     keyword_tags = "".join(f"<span>{esc(k)}</span>" for k in paper["keywords"])
+    abstract_tex = paper.get("abstract_tex")
+    if abstract_tex:
+        extra += """
+  <script>window.MathJax = {output: {displayOverflow: "scroll"}};</script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4.1.0/tex-chtml.js"></script>"""
+    abstract = abstract_tex or paper["abstract"]
     return head(f"{title} | Sam Vaseghi", paper["abstract"][:160], url, extra) + f"""<body>
 {navigation("papers")}
 <main id="main">
@@ -173,7 +181,7 @@ def paper_page(paper: dict) -> str:
     <p class="breadcrumb"><a href="/#papers">All papers</a><span aria-hidden="true">/</span>{esc(paper['group'])}</p>
     <header class="article-heading"><p class="eyebrow accent">{esc(paper['kind'])} · {esc(paper['group'])}</p><h1>{esc(title)}</h1><p class="byline"><span class="citation_author">{esc(AUTHOR)}</span> <span class="byline-separator" aria-hidden="true">·</span> Wisehouse Science Communication Lab, Wisehouse AB</p></header>
     <div class="article-layout">
-      <div class="article-main"><h2>Abstract</h2><p class="abstract">{esc(paper['abstract'])}</p><h2>Keywords</h2><div class="keywords">{keyword_tags}</div><div class="citation"><h2>Citation</h2><p>{esc(cite)}</p></div></div>
+      <div class="article-main"><h2>Abstract</h2><p class="abstract">{esc(abstract)}</p><h2>Keywords</h2><div class="keywords">{keyword_tags}</div><div class="citation"><h2>Citation</h2><p>{esc(cite)}</p></div></div>
       <aside class="article-aside" aria-label="Paper details"><p class="eyebrow">Paper record</p><dl><div><dt>Type</dt><dd>{esc(paper['kind'])}</dd></div><div><dt>Version</dt><dd>{version}</dd></div><div><dt>Version record date</dt><dd>{esc(formatted_day(paper['version_date']))}</dd></div>{f'<div><dt>DOI</dt><dd><a href="https://doi.org/{esc(doi)}">{esc(doi)}</a></dd></div>' if doi else ''}{license_record}</dl><div class="aside-actions"><a class="button primary" href="{esc(paper['record'])}">{esc(record_label)} <span aria-hidden="true">↗</span></a>{pdf_button}</div>{note}</aside>
     </div>
     <p class="back-link"><a href="/#papers">← Back to all papers</a></p>
