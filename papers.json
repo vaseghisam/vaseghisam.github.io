@@ -273,5 +273,66 @@
     ],
     "pdf": "paper.pdf",
     "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "slug": "smooth-integer-sampling",
+    "title": "Near-uniform sampling of factored smooth integers in expected polynomial time",
+    "group": "Algebra and number theory",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-02",
+    "record": "https://zenodo.org/records/23878464",
+    "doi": "10.5281/zenodo.23878464",
+    "pdf": "paper.pdf",
+    "abstract": "Given integers 2 ≤ y ≤ X, we consider the generation of an integer chosen nearly uniformly from the y-smooth integers at most X, together with its complete prime factorization. We give an unconditional algorithm using fair random bits whose output law is within total variation 2^(−h) of uniform and whose expected bit complexity is bounded by a fixed polynomial in ⌈log₂ X⌉ + h, uniformly in y. The algorithm requires no prime list, smooth-number counting oracle, saddle-point evaluation or general integer-factorization routine. Its construction combines tilted independent geometric prime exponents with sparse proposals over dyadic integer intervals. An explicitly filtered grid contains a useful tilt without computing it. Uniform smooth-number estimates give polynomial acceptance, and certified finite-precision primitives preserve both the distributional guarantee and the expected work bound. Every returned integer and its displayed prime factorization are exact; the approximation concerns only the sampling distribution. The guarantee concerns expected bit complexity; no practical running-time comparison is asserted.",
+    "keywords": [
+      "smooth integers",
+      "random sampling",
+      "bit complexity",
+      "rejection sampling",
+      "prime factorization"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "slug": "positive-factorization-cost",
+    "title": "Deterministic gaps between positive factorization cost and the entrywise norm",
+    "group": "Matrices and spectral methods",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-01",
+    "record": "https://zenodo.org/records/23865552",
+    "doi": "10.5281/zenodo.23865552",
+    "pdf": "paper.pdf",
+    "abstract": "For a positive-semidefinite matrix, the sum of the squared ℓ₁ norms of its positive rank-one factors is at least the entrywise absolute sum of the matrix. We construct rational orthogonal projectors for which the minimum factorization cost exceeds this lower bound by a growing factor. Applying the deterministic almost Euclidean subspaces of Guruswami, Lee and Razborov gives an algorithm using polynomially many bit operations in the matrix dimension n, with ratio at least √n exp[−O(log log n · log log log n)]. The estimate holds for both real and complex factorizations. The proof uses the fact that positivity confines every factor to the projector range, together with a trace estimate; complexification preserves the subspace inequality without loss. An elementary construction from additive characters of the cubic graph over F_q, where q = 2^s, gives rank-q projectors in dimension q² with ratio at least √q/3. These elementary projectors also specify a rational positive operator with absolutely summable entries for which every countable positive rank-one factorization has infinite total squared ℓ₁ cost.",
+    "keywords": [
+      "positive-semidefinite factorization",
+      "entrywise matrix norm",
+      "almost Euclidean subspaces",
+      "deterministic construction",
+      "absolutely summable operators"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "slug": "recovery-without-a-declining-opponent",
+    "title": "Recovery without a declining opponent: a two-state model motivated by the uncanny valley",
+    "group": "Mathematical modelling",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-10-22",
+    "record": "https://zenodo.org/records/23557943",
+    "doi": "10.5281/zenodo.23557943",
+    "pdf": "paper.pdf",
+    "abstract": "An improvement in overall affinity need not mean that an unsettling response has declined: a positive contribution may instead come to outweigh a growing opponent. This note examines that possibility in a bounded two-state model motivated by the uncanny valley. It distinguishes Mori's appearance continuum from the evolution of a response during a fixed exposure. With separate positive rates for acquisition, loss, opponent recruitment and removal, both states increase from a neutral start. Their ratio is strictly increasing when ab ≤ (a + d)² and has one maximum when ab > (a + d)². In the latter regime, a defined interval of observation weights produces an initial rise, a negative excursion and a return above baseline. A worked example and a complete proof describe how this reversal of relative dominance occurs. A comparison with two real linear decay modes establishes a limited response distinction without selecting a unique mechanism. The measurement analysis also separates parameter uniqueness from prediction: exact opponent and mixed-response traces determine the reduced dynamics despite an unresolved scale of the positive component. The state architecture and general mathematical methods have established precedents, which are identified explicitly. The result is a conditional account of what this model permits, with synthetic illustrations and no participant experiments or empirical parameter fits. It does not establish that the latent components describe human familiarity or eeriness.",
+    "keywords": [
+      "uncanny valley",
+      "opponent processes",
+      "dynamical systems",
+      "response recovery",
+      "structural identifiability",
+      "phenomenological modeling"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
   }
 ]
