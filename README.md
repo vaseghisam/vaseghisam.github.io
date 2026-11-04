@@ -1,6 +1,6 @@
 # Sam Vaseghi — research papers
 
-A portable, static catalogue of Sam Vaseghi's research in mathematics and theoretical physics. It contains fourteen research preprints, one explanatory companion and a local copy of the Golden–Thompson preprint. Zenodo holds the archival records.
+A portable, static catalogue of Sam Vaseghi's research in mathematics and theoretical physics. It contains fourteen research preprints and one explanatory companion. Each entry has a local PDF copy matched to its CC BY 4.0 Zenodo record. Zenodo holds the archival records.
 
 ## Preview and edit
 
@@ -20,7 +20,7 @@ Each paper page includes scholarly citation metadata. When adding an approved lo
 
 ## Record notes
 
-The catalogue identifies the dual-total-correlation and Gaussian-splitting versions using the available author confirmation while their latest version DOI or live metadata is being reconciled. Their pages state those limits. The Golden–Thompson HAL deposit is described as awaiting moderation until a public HAL record is confirmed. These records are preprints or explanatory work, not journal acceptances.
+Each entry cites the exact archived version. Before updating a copy, check the Zenodo record's DOI, license, and file checksum. The Golden–Thompson page records the reported HAL moderation status on 2 November 2026.
 
 ## Continuity
 

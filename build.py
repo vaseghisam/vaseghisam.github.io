@@ -138,12 +138,13 @@ def paper_page(paper: dict) -> str:
     url = f"{BASE}/papers/{paper['slug']}/"
     doi = paper.get("doi")
     title = paper["title"]
-    year = date.fromisoformat(paper["version_date"]).year
+    publication_date = date.fromisoformat(paper["version_date"])
+    year = publication_date.year
     pdf = paper.get("pdf")
     metadata = [
         f'<meta name="citation_title" content="{esc(title)}">',
         f'<meta name="citation_author" content="{esc(AUTHOR)}">',
-        f'<meta name="citation_publication_date" content="{year}">',
+        f'<meta name="citation_publication_date" content="{publication_date:%Y/%m/%d}">',
     ]
     if doi:
         metadata.append(f'<meta name="citation_doi" content="{esc(doi)}">')
@@ -158,6 +159,11 @@ def paper_page(paper: dict) -> str:
         cite = f'{AUTHOR}. {title}. {citation_type}, {year}. See the linked Zenodo record for its current citation.'
     record_label = paper.get("record_label", "Read the Zenodo record")
     pdf_button = f'<a class="button secondary" href="{quote(pdf)}" type="application/pdf">Read PDF copy <span aria-hidden="true">↗</span></a>' if pdf else ""
+    license_url = paper.get("license_url")
+    license_record = (
+        f'<div><dt>PDF license</dt><dd><a rel="license" href="{esc(license_url)}">CC BY 4.0</a></dd></div>'
+        if license_url else ""
+    )
     note = f'<p class="record-note">{esc(paper["status_note"])}</p>' if paper.get("status_note") else ""
     keyword_tags = "".join(f"<span>{esc(k)}</span>" for k in paper["keywords"])
     return head(f"{title} | Sam Vaseghi", paper["abstract"][:160], url, extra) + f"""<body>
@@ -168,7 +174,7 @@ def paper_page(paper: dict) -> str:
     <header class="article-heading"><p class="eyebrow accent">{esc(paper['kind'])} · {esc(paper['group'])}</p><h1>{esc(title)}</h1><p class="byline"><span class="citation_author">{esc(AUTHOR)}</span> <span class="byline-separator" aria-hidden="true">·</span> Wisehouse Science Communication Lab, Wisehouse AB</p></header>
     <div class="article-layout">
       <div class="article-main"><h2>Abstract</h2><p class="abstract">{esc(paper['abstract'])}</p><h2>Keywords</h2><div class="keywords">{keyword_tags}</div><div class="citation"><h2>Citation</h2><p>{esc(cite)}</p></div></div>
-      <aside class="article-aside" aria-label="Paper details"><p class="eyebrow">Paper record</p><dl><div><dt>Type</dt><dd>{esc(paper['kind'])}</dd></div><div><dt>Version</dt><dd>{version}</dd></div><div><dt>Version record date</dt><dd>{esc(formatted_day(paper['version_date']))}</dd></div>{f'<div><dt>DOI</dt><dd><a href="https://doi.org/{esc(doi)}">{esc(doi)}</a></dd></div>' if doi else ''}</dl><div class="aside-actions"><a class="button primary" href="{esc(paper['record'])}">{esc(record_label)} <span aria-hidden="true">↗</span></a>{pdf_button}</div>{note}</aside>
+      <aside class="article-aside" aria-label="Paper details"><p class="eyebrow">Paper record</p><dl><div><dt>Type</dt><dd>{esc(paper['kind'])}</dd></div><div><dt>Version</dt><dd>{version}</dd></div><div><dt>Version record date</dt><dd>{esc(formatted_day(paper['version_date']))}</dd></div>{f'<div><dt>DOI</dt><dd><a href="https://doi.org/{esc(doi)}">{esc(doi)}</a></dd></div>' if doi else ''}{license_record}</dl><div class="aside-actions"><a class="button primary" href="{esc(paper['record'])}">{esc(record_label)} <span aria-hidden="true">↗</span></a>{pdf_button}</div>{note}</aside>
     </div>
     <p class="back-link"><a href="/#papers">← Back to all papers</a></p>
   </article>
