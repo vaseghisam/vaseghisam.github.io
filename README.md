@@ -1,6 +1,6 @@
 # Sam Vaseghi — research papers
 
-A portable, static catalogue for Sam Vaseghi. It contains thirteen Mathematics Knowledge and Connections Program (MKCP) research-preprint pages, one explanatory-companion page, one related physics-preprint page, a browsable homepage and a local copy of the Golden–Thompson preprint. Zenodo remains the archival record for each article.
+A portable, static catalogue of Sam Vaseghi's research in mathematics and theoretical physics. It contains fourteen research preprints, one explanatory companion and a local copy of the Golden–Thompson preprint. Zenodo holds the archival records.
 
 ## Preview and edit
 
@@ -15,6 +15,8 @@ Open `index.html` in a browser, or serve the repository root with `python3 -m ht
 The `.nojekyll` file asks Pages to serve the already-rendered files directly. If the owner or address changes, update `BASE` in `build.py`, rebuild, and inspect canonical and sitemap URLs.
 
 Within an extracted source snapshot, run `sha256sum -c SHA256SUMS` to check its files.
+
+Each paper page includes scholarly citation metadata. When adding an approved local PDF, place it beside the paper's `index.html` and set the `pdf` field in `papers.json` to its filename. The build adds the full-text metadata and links from the catalogue and paper page.
 
 ## Record notes
 
