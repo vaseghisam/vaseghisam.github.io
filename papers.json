@@ -1,5 +1,29 @@
 [
   {
+    "slug": "sharp-entropy-retention",
+    "title": "Sharp entropy retention under edge deletion in roses and parallel-edge graphs",
+    "group": "Analysis and geometry",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-05",
+    "record": "https://zenodo.org/records/23978176",
+    "doi": "10.5281/zenodo.23978176",
+    "pdf": "paper.pdf",
+    "abstract": "Let a finite graph have strictly positive edge lengths, and let its entropy be the exponential growth rate of reduced circuits per unit metric length. We determine the smallest possible fraction of entropy retained by an optimal one-edge deletion for two graph families. For a rose with r >= 3 loops, this fraction is log(2r - 3)/log(2r - 1). For two vertices joined by k >= 4 parallel edges, it is log(k - 2)/log(k - 1). In each family, deleting any longest edge is optimal, and equality in the sharp bound holds exactly when all edge lengths are equal. The rose result proves the sharp three-loop bound and the uniform lower bound conjectured by Hamed, Aougab and Clay. The proof uses scalar Perron equations for entropy, a change of variables to a concave logistic-power function, and concentration of coordinates under a fixed-sum constraint. Repeated deletion gives sharp bounds for retaining several edges.",
+    "keywords": [
+      "metric graph",
+      "volume entropy",
+      "subgraph entropy",
+      "edge deletion",
+      "rose graph",
+      "parallel-edge graph",
+      "sharp inequality"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "abstract_tex": "Let a finite graph have strictly positive edge lengths, and let its entropy be the exponential growth rate of reduced circuits per unit metric length. We determine the smallest possible fraction of entropy retained by an optimal one-edge deletion for two graph families. For a rose with \\(r\\ge3\\) loops, this fraction is \\(\\log(2r-3)/\\log(2r-1)\\). For two vertices joined by \\(k\\ge4\\) parallel edges, it is \\(\\log(k-2)/\\log(k-1)\\). In each family, deleting any longest edge is optimal, and equality in the sharp bound holds exactly when all edge lengths are equal. The rose result proves the sharp three-loop bound and the uniform lower bound conjectured by Hamed, Aougab and Clay. The proof uses scalar Perron equations for entropy, a change of variables to a concave logistic-power function, and concentration of coordinates under a fixed-sum constraint. Repeated deletion gives sharp bounds for retaining several edges.",
+    "teaser": "Sharp bounds determine how much entropy survives an optimal edge deletion in roses and parallel-edge graphs. Longest edges give the optimal deletions, and equal edge lengths are exactly the metrics attaining the bounds."
+  },
+  {
     "slug": "golden-thompson-qubit-chains",
     "title": "A commutator estimate for the Golden–Thompson gap in qubit chains",
     "group": "Mathematical physics",
