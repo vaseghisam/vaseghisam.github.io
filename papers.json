@@ -1,5 +1,35 @@
 [
   {
+    "slug": "interpreting-recovery-in-human-robot-affinity",
+    "title": "Interpreting Recovery in Human–Robot Affinity",
+    "group": "Mathematical modelling",
+    "kind": "Explanatory companion",
+    "version": "1.0",
+    "version_date": "2026-11-07",
+    "record": "https://zenodo.org/records/24033467",
+    "doi": "10.5281/zenodo.24033467",
+    "pdf": "paper.pdf",
+    "abstract": "A response to a robot can return above its initial level even while an adverse contribution continues to grow. Interpreting such recovery requires distinguishing what a trajectory can exclude from what it can identify. We examine models in which the same positive process contributes to the response and drives an opponent through fixed nonnegative filtering. With zero history, fixed positive observation weights and a log-concave positive driver, the opponent-to-driver ratio cannot decrease, so a return above baseline after a negative excursion is impossible. The argument applies to arbitrary nonnegative delay mixtures and includes a published isolated-dose opponent architecture under its actual decaying input. A saturating two-state construction illustrates one way to escape the restriction while both contributions increase. Fixed nondecreasing scalar observation maps preserve the strict crossing diagnostic, whereas arithmetic averaging need not: an exact example has a recovering mean although neither individual recovers. These conditional comparisons clarify how individual trajectories, exposure history and observation assumptions enter model selection. The examples are synthetic and do not validate a psychological interpretation of the latent states.",
+    "keywords": [
+      "human–robot interaction",
+      "uncanny valley",
+      "opponent processes",
+      "response recovery",
+      "model comparison",
+      "log-concavity"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "teaser": "A conceptual companion examines what recovery in human–robot affinity can exclude or identify under explicit model and observation assumptions, and why a recovering average need not imply individual recovery.",
+    "related": [
+      {
+        "slug": "recovery-without-a-declining-opponent",
+        "title": "Recovery without a declining opponent: a two-state model motivated by the uncanny valley",
+        "description": "The technical note gives the full two-state parameter classification and identification analysis."
+      }
+    ],
+    "description": "What recovery in human–robot affinity can exclude or identify under explicit model assumptions, and why averaged recovery need not imply individual recovery."
+  },
+  {
     "slug": "newton-face-bernoulli-factories",
     "title": "A Newton-face criterion for finite-state categorical Bernoulli factories",
     "group": "Probability and algorithms",
@@ -410,6 +440,13 @@
       "phenomenological modeling"
     ],
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "abstract_tex": "An improvement in overall affinity need not mean that an unsettling response has declined: a positive contribution may instead come to outweigh a growing opponent. This note examines that possibility in a bounded two-state model motivated by the uncanny valley. It distinguishes Mori's appearance continuum from the evolution of a response during a fixed exposure. With separate positive rates for acquisition, loss, opponent recruitment and removal, both states increase from a neutral start. Their ratio is strictly increasing when \\(ab\\le(a+d)^2\\) and has one maximum when \\(ab>(a+d)^2\\). In the latter regime, a defined interval of observation weights produces an initial rise, a negative excursion and a return above baseline. A worked example and a complete proof describe how this reversal of relative dominance occurs. A comparison with two real linear decay modes establishes a limited response distinction without selecting a unique mechanism. The measurement analysis also separates parameter uniqueness from prediction: exact opponent and mixed-response traces determine the reduced dynamics despite an unresolved scale of the positive component. The state architecture and general mathematical methods have established precedents, which are identified explicitly. The result is a conditional account of what this model permits, with synthetic illustrations and no participant experiments or empirical parameter fits. It does not establish that the latent components describe human familiarity or eeriness."
+    "abstract_tex": "An improvement in overall affinity need not mean that an unsettling response has declined: a positive contribution may instead come to outweigh a growing opponent. This note examines that possibility in a bounded two-state model motivated by the uncanny valley. It distinguishes Mori's appearance continuum from the evolution of a response during a fixed exposure. With separate positive rates for acquisition, loss, opponent recruitment and removal, both states increase from a neutral start. Their ratio is strictly increasing when \\(ab\\le(a+d)^2\\) and has one maximum when \\(ab>(a+d)^2\\). In the latter regime, a defined interval of observation weights produces an initial rise, a negative excursion and a return above baseline. A worked example and a complete proof describe how this reversal of relative dominance occurs. A comparison with two real linear decay modes establishes a limited response distinction without selecting a unique mechanism. The measurement analysis also separates parameter uniqueness from prediction: exact opponent and mixed-response traces determine the reduced dynamics despite an unresolved scale of the positive component. The state architecture and general mathematical methods have established precedents, which are identified explicitly. The result is a conditional account of what this model permits, with synthetic illustrations and no participant experiments or empirical parameter fits. It does not establish that the latent components describe human familiarity or eeriness.",
+    "related": [
+      {
+        "slug": "interpreting-recovery-in-human-robot-affinity",
+        "title": "Interpreting Recovery in Human–Robot Affinity",
+        "description": "The conceptual companion examines model comparison, observation assumptions and the distinction between individual and averaged recovery."
+      }
+    ]
   }
 ]
