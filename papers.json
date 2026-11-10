@@ -1,5 +1,77 @@
 [
   {
+    "slug": "catalyst-rank-entanglement-concentration",
+    "title": "Catalyst-rank limits for second-order entanglement concentration",
+    "group": "Mathematical physics",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-09",
+    "record": "https://zenodo.org/records/24074483",
+    "doi": "10.5281/zenodo.24074483",
+    "pdf": "paper.pdf",
+    "abstract": "Exact catalysts can improve the second-order yield of pure-state entanglement concentration, but the optimal yield does not specify how the catalyst must grow. We obtain a necessary rank condition for this improvement. Let the source have a fixed nonuniform finite squared Schmidt vector, with entropy H and information variance V defined using base-two logarithms, and fix a required squared fidelity q ∈ (0,1). For pure outputs of n source copies, with a pure catalyst returned exactly and uncorrelated, suppose that the target contains nH+b√n+o(√n) Bell pairs. If the catalyst rank K_n satisfies lim sup log₂ K_n/√n ≤ c<∞, we give an explicit necessary fidelity bound strictly below e^{-b^2/(2V)} for every b>0. Consequently, attaining the known unrestricted coefficient √(2V ln(1/q)) requires log₂ K_n/√n → ∞. Catalysts with log₂ K_n=o(√n) cannot improve the unassisted coefficient. The proof combines a fidelity concentration estimate, a Gaussian limit of the majorization inequalities, and a positive tail term retained by the rank constraint.",
+    "keywords": [
+      "entanglement concentration",
+      "exact catalysis",
+      "Schmidt rank",
+      "majorization",
+      "second-order asymptotics",
+      "quantum information"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "teaser": "The paper bounds the Schmidt rank needed for exact entanglement catalysis to achieve the optimal second-order concentration yield.",
+    "description": "The paper bounds the Schmidt rank needed for exact entanglement catalysis to achieve the optimal second-order concentration yield.",
+    "abstract_tex": "Exact catalysts can improve the second-order yield of pure-state entanglement concentration, but the optimal yield does not specify how the catalyst must grow. We obtain a necessary rank condition for this improvement. Let the source have a fixed nonuniform finite squared Schmidt vector, with entropy \\(H\\) and information variance \\(V\\) defined using base-two logarithms, and fix a required squared fidelity \\(q\\in(0,1)\\). For pure outputs of \\(n\\) source copies, with a pure catalyst returned exactly and uncorrelated, suppose that the target contains \\(nH+b\\sqrt n+o(\\sqrt n)\\) Bell pairs. If the catalyst rank \\(K_n\\) satisfies \\(\\limsup \\log_2K_n/\\sqrt n\\le c<\\infty\\), we give an explicit necessary fidelity bound strictly below \\(e^{-b^2/(2V)}\\) for every \\(b>0\\). Consequently, attaining the known unrestricted coefficient \\(\\sqrt{2V\\ln(1/q)}\\) requires \\(\\log_2K_n/\\sqrt n\\to\\infty\\). Catalysts with \\(\\log_2K_n=o(\\sqrt n)\\) cannot improve the unassisted coefficient. The proof combines a fidelity concentration estimate, a Gaussian limit of the majorization inequalities, and a positive tail term retained by the rank constraint."
+  },
+  {
+    "slug": "strong-morse-matching-complexes",
+    "title": "Integral homology of strong Morse matching complexes of cycles",
+    "group": "Combinatorial topology",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-08",
+    "record": "https://zenodo.org/records/24051024",
+    "doi": "10.5281/zenodo.24051024",
+    "pdf": "paper.pdf",
+    "abstract": "We determine the reduced integral homology of the full strong discrete Morse matching complex of every cycle. Apart from the five-cycle, the answer is the sum of two free abelian contributions whose degrees and ranks follow explicit formulas according to the cycle order modulo four and modulo three. The proof represents a pairing by two local order inequalities. Their conflict graph is a regular bipartite graph with a known independence complex; the strong matching complex is obtained by removing exactly two families of monochromatic vertex covers. The resulting relative chain complex splits into two copies of a simplex relative to the noncover complex of the cycle. Combinatorial Alexander duality and the long exact sequence then give the homology in all orders, extending the finite calculations of Knudson and Owens-White. The same face description gives a transfer-matrix formula for the face polynomial and a twelve-periodic reduced Euler characteristic.",
+    "keywords": [
+      "Strong discrete Morse matching",
+      "independence complex",
+      "noncover complex",
+      "combinatorial Alexander duality",
+      "cycle graph"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "teaser": "The paper computes the integral homology of strong Morse matching complexes for all cycles and gives a transfer-matrix formula for their face polynomials.",
+    "description": "The paper computes the integral homology of strong Morse matching complexes for all cycles and gives a transfer-matrix formula for their face polynomials."
+  },
+  {
+    "slug": "sharp-refresh-scale-power-free-interval-counts",
+    "title": "A sharp refresh scale for power-free interval counts",
+    "group": "Algebra and number theory",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-08",
+    "record": "https://zenodo.org/records/24050883",
+    "doi": "10.5281/zenodo.24050883",
+    "pdf": "paper.pdf",
+    "abstract": "The random-sieve model of power-free integers assigns an independent uniform forbidden residue class modulo p^k to each prime p. We determine how the centered count in an interval of length H responds when each prime coordinate is independently resampled with probability ε_H. For every fixed integer k ≥ 2, the correlation between the original and resampled counts tends to e^{-t} when ε_Hlog log H → t ∈ [0,∞), and tends to zero when this product diverges. Thus 1/log log H is the sharp refresh scale. The proof expresses the covariance as a positive arithmetic sum and transfers the classical normal order of the number of distinct prime factors to its bounded weights. An exact cancellation of Euler factors then gives the correlation profile. As a consequence, the number of prime coordinates in a character sampled according to the interval count's normalized Fourier energy, divided by log log H, converges in probability to one.",
+    "keywords": [
+      "power-free integers",
+      "random sieves",
+      "noise sensitivity",
+      "prime-coordinate resampling",
+      "arithmetic probability",
+      "covariance",
+      "normal order",
+      "Fourier spectrum"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "teaser": "A random sieve for power-free integers has a sharp resampling scale. The paper determines the limiting correlation between the original and resampled interval counts.",
+    "description": "A random sieve for power-free integers has a sharp resampling scale. The paper determines the limiting correlation between the original and resampled interval counts.",
+    "abstract_tex": "The random-sieve model of power-free integers assigns an independent uniform forbidden residue class modulo \\(p^k\\) to each prime \\(p\\). We determine how the centered count in an interval of length \\(H\\) responds when each prime coordinate is independently resampled with probability \\(\\varepsilon_H\\). For every fixed integer \\(k\\ge2\\), the correlation between the original and resampled counts tends to \\(e^{-t}\\) when \\(\\varepsilon_H\\log\\log H\\to t\\in[0,\\infty)\\), and tends to zero when this product diverges. Thus \\(1/\\log\\log H\\) is the sharp refresh scale. The proof expresses the covariance as a positive arithmetic sum and transfers the classical normal order of the number of distinct prime factors to its bounded weights. An exact cancellation of Euler factors then gives the correlation profile. As a consequence, the number of prime coordinates in a character sampled according to the interval count's normalized Fourier energy, divided by \\(\\log\\log H\\), converges in probability to one."
+  },
+  {
     "slug": "interpreting-recovery-in-human-robot-affinity",
     "title": "Interpreting Recovery in Human–Robot Affinity",
     "group": "Mathematical modelling",
