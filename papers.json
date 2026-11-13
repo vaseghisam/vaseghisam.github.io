@@ -1,5 +1,52 @@
 [
   {
+    "slug": "markovian-super-coupon-collection",
+    "title": "A Gumbel law for Markovian super-coupon collection",
+    "group": "Probability and algorithms",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-12",
+    "record": "https://zenodo.org/records/24175198",
+    "doi": "10.5281/zenodo.24175198",
+    "pdf": "paper.pdf",
+    "abstract": "An r-element subset of an n-element universe evolves by replacing a uniformly chosen element with a uniformly chosen element outside the current set. Each configuration collects all of its s-element subsets. For every fixed pair 2 ≤ s < r, we prove that the expected time to collect all s-subsets is asymptotic to [C(n,s)/C(r−1,s−1)] log C(n,s), where C(a,b) denotes a binomial coefficient. This proves the fixed-parameter off-diagonal case of the conjecture of Athreya, Mukherjee and Mukherjee. We also obtain a Poisson limit for the number of subsets still missing near completion and a standard Gumbel limit for the centered and scaled collection time. The conclusions hold from every initial configuration. The proof controls joint avoidance of any fixed family of target subsets, uniformly over their overlaps. Restricting the walk to the labels in that family gives a finite transition matrix, and a stationary-flow identity determines its leading killing rate. Standard spectral and factorial-moment arguments then give the collection-time limits.",
+    "keywords": [
+      "Coupon collector",
+      "Johnson graph",
+      "Cover time",
+      "Gumbel distribution",
+      "Hitting time",
+      "Finite Markov chain"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "teaser": "The paper proves the fixed-parameter off-diagonal collection-time conjecture and gives Poisson and Gumbel limits for the one-swap model.",
+    "description": "The paper proves the fixed-parameter off-diagonal collection-time conjecture and gives Poisson and Gumbel limits for the one-swap model.",
+    "abstract_tex": "An \\(r\\)-element subset of an \\(n\\)-element universe evolves by replacing a uniformly chosen element with a uniformly chosen element outside the current set. Each configuration collects all of its \\(s\\)-element subsets. For every fixed pair \\(2\\le s<r\\), we prove that the expected time to collect all \\(s\\)-subsets is asymptotic to \\[\\frac{\\binom ns}{\\binom{r-1}{s-1}}\\log\\binom ns.\\] This proves the fixed-parameter off-diagonal case of the conjecture of Athreya, Mukherjee and Mukherjee. We also obtain a Poisson limit for the number of subsets still missing near completion and a standard Gumbel limit for the centered and scaled collection time. The conclusions hold from every initial configuration. The proof controls joint avoidance of any fixed family of target subsets, uniformly over their overlaps. Restricting the walk to the labels in that family gives a finite transition matrix, and a stationary-flow identity determines its leading killing rate. Standard spectral and factorial-moment arguments then give the collection-time limits."
+  },
+  {
+    "slug": "proximal-approximation-small-derivative-asymmetry",
+    "title": "Proximal approximation of firmly nonexpansive maps with small derivative asymmetry",
+    "group": "Analysis and geometry",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-12",
+    "record": "https://zenodo.org/records/24157352",
+    "doi": "10.5281/zenodo.24157352",
+    "pdf": "paper.pdf",
+    "abstract": "We study uniform approximation of a firmly nonexpansive map by the proximal map of a single convex function. Let H be a real Hilbert space, let R > 0, and suppose that T is continuously Fréchet differentiable on a neighbourhood of the closed ball B_{√2R}, firmly nonexpansive on that ball, and satisfies sup_{B_{√2R}} ‖DT−DT*‖ ≤ ε. We prove that a finite continuous convex function φ exists with sup_{B_R} ‖T−prox_φ‖ ≤ R√(2ε). The estimate is independent of dimension and requires no bound on derivatives of the skew part. The proof converts the differential defect into approximate convex interpolation inequalities, then applies an elementary form of established approximate-subdifferential integration. An affine proximal approximation gives the complementary bound R/2. For a planar rotation perturbation with 0 ≤ ε ≤ 1, the exact approximation error is εR/2; thus this example does not establish optimality of the square-root rate.",
+    "keywords": [
+      "Proximal map",
+      "Firm nonexpansiveness",
+      "Approximate subdifferential",
+      "Convex interpolation",
+      "Quantitative stability"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "teaser": "A dimension-independent bound approximates a firmly nonexpansive map by one convex proximal map when the derivative is nearly symmetric.",
+    "description": "A dimension-independent bound approximates a firmly nonexpansive map by one convex proximal map when the derivative is nearly symmetric.",
+    "abstract_tex": "We study uniform approximation of a firmly nonexpansive map by the proximal map of a single convex function. Let \\(H\\) be a real Hilbert space, let \\(R>0\\), and suppose that \\(T\\) is continuously Fréchet differentiable on a neighbourhood of the closed ball \\(B_{\\sqrt{2}R}\\), firmly nonexpansive on that ball, and satisfies \\(\\sup_{B_{\\sqrt{2}R}}\\|DT-DT^*\\|\\le\\varepsilon\\). We prove that a finite continuous convex function \\(\\varphi\\) exists with \\(\\sup_{B_R}\\|T-\\operatorname{prox}_{\\varphi}\\|\\le R\\sqrt{2\\varepsilon}\\). The estimate is independent of dimension and requires no bound on derivatives of the skew part. The proof converts the differential defect into approximate convex interpolation inequalities, then applies an elementary form of established approximate-subdifferential integration. An affine proximal approximation gives the complementary bound \\(R/2\\). For a planar rotation perturbation with \\(0\\le\\varepsilon\\le1\\), the exact approximation error is \\(\\varepsilon R/2\\); thus this example does not establish optimality of the square-root rate."
+  },
+  {
     "slug": "catalyst-rank-entanglement-concentration",
     "title": "Catalyst-rank limits for second-order entanglement concentration",
     "group": "Mathematical physics",

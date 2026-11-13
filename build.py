@@ -12,6 +12,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parent
 BASE = "https://vaseghisam.github.io"
 AUTHOR = "Sam Vaseghi"
+CATALOGUE_UPDATED = "2026-11-13"
 ORCID = "https://orcid.org/0009-0006-4105-1949"
 EMAIL = "sam.vaseghi@wisehouse-publishing.com"
 CATALOGUE_DESCRIPTION = (
@@ -63,7 +64,7 @@ def footer() -> str:
   <div class="shell footer-grid">
     <p><strong>Sam Vaseghi</strong><br>Wisehouse Science Communication Lab<br>Wisehouse AB · Sweden</p>
     <p><a href="mailto:{EMAIL}">{EMAIL}</a></p>
-    <p><a href="https://github.com/vaseghisam">GitHub</a> · <a href="https://orcid.org/0009-0006-4105-1949">ORCID</a><br><span class="muted">Catalogue prepared 2 November 2026</span></p>
+    <p><a href="https://github.com/vaseghisam">GitHub</a> · <a href="https://orcid.org/0009-0006-4105-1949">ORCID</a><br><span class="muted">Catalogue updated {formatted_day(CATALOGUE_UPDATED)}</span></p>
   </div>
 </footer>"""
 
