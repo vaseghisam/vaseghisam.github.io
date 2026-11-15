@@ -1,5 +1,56 @@
 [
   {
+    "slug": "sum-difference-exponents",
+    "title": "Removing the logarithmic loss in a lower bound for sum-difference exponents",
+    "group": "Algebra and number theory",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-14",
+    "record": "https://zenodo.org/records/24221526",
+    "doi": "10.5281/zenodo.24221526",
+    "pdf": "paper.pdf",
+    "abstract": "For a finite rational slope family containing 0, 1 and ∞, the sum-difference exponent measures how much entropy an output projection can have relative to the largest input projection entropy. Tao bounded this exponent from below by 2 − Oₖ(log(2 + D)/D), where D is the rational complexity of the output relative to the inputs and k is the number of additional input slopes. For k ≥ 1, we prove the lower bound 2 − Cₖ/D, with an explicit constant depending only on k. The proof retains Tao's evaluated-polynomial construction and adds a covering estimate between two comparable degree-and-coefficient scales. This estimate holds for sets of evaluated values, including when polynomial evaluations coincide. A separate appendix evaluates the corrected folded-entropy functional associated with the three-slope continuous limit. Its infimum is log(2/√3) for every folding parameter, by the classical sharp entropy Brascamp–Lieb inequality and concentration into a single strip.",
+    "abstract_tex": "For a finite rational slope family containing \\(0\\), \\(1\\) and \\(\\infty\\), the sum-difference exponent measures how much entropy an output projection can have relative to the largest input projection entropy. Tao bounded this exponent from below by \\(2-O_k\\!\\left(\\log(2+D)/D\\right)\\), where \\(D\\) is the rational complexity of the output relative to the inputs and \\(k\\) is the number of additional input slopes. For \\(k\\ge1\\), we prove the lower bound \\(2-C_k/D\\), with an explicit constant depending only on \\(k\\). The proof retains Tao's evaluated-polynomial construction and adds a covering estimate between two comparable degree-and-coefficient scales. This estimate holds for sets of evaluated values, including when polynomial evaluations coincide. A separate appendix evaluates the corrected folded-entropy functional associated with the three-slope continuous limit. Its infimum is \\(\\log(2/\\sqrt{3})\\) for every folding parameter, by the classical sharp entropy Brascamp--Lieb inequality and concentration into a single strip.",
+    "keywords": [
+      "Sum-difference exponents",
+      "Rational complexity",
+      "Shannon entropy",
+      "Polynomial growth",
+      "Brascamp–Lieb inequality"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "license_label": "CC BY-NC 4.0 (PDF statement)",
+    "status_note": "This copy is the archived preprint, version 1.0. The Zenodo catalogue metadata lists CC BY 4.0, while the PDF states CC BY-NC 4.0; consult the linked record and PDF for their licence statements.",
+    "teaser": "A lower bound for sum-difference exponents removes a logarithmic loss in the dependence on relative rational complexity, for a fixed number of input slopes.",
+    "description": "A lower bound for sum-difference exponents removes a logarithmic loss in the dependence on relative rational complexity."
+  },
+  {
+    "slug": "environmental-records-bell-measurements",
+    "title": "Certifying conditional dependence among environmental records from CHSH correlations",
+    "group": "Theoretical physics",
+    "kind": "Research preprint",
+    "version": "1.1.0",
+    "version_date": "2026-11-14",
+    "record": "https://zenodo.org/records/24217280",
+    "doi": "10.5281/zenodo.24217280",
+    "abstract": "Environmental records can be individually accurate while sharing the same errors. We show how retained coherence can quantify this conditional dependence without reconstructing the joint record distribution. For a balanced two-qubit state supported on span{|00⟩, |11⟩}, we derive the sharp compatibility boundary between a retained Clauser–Horne–Shimony–Holt (CHSH) value, the accuracy of R designated local binary records, and their conditional total correlation. The full extremum reduces to a convex problem in R + 1 Hamming-weight probabilities, and every boundary value has a pure-state quantum realization using only the designated fragments. Its inverse gives the least dependence compatible with Bell data and separate record calibrations. For two records it is explicit; at fixed accuracy, a fixed positive Bell excess requires dependence growing at least linearly with record count. Independent monitoring reaches the zero-dependence boundary in a Lindblad dephasing limit. A shared-memory Lindblad process instead improves record accuracy at constant Bell value, with an exact time after which dependence becomes certifiable. The result quantifies departures from conditional independence in environmental recording, under trusted state-sector and readout assumptions.",
+    "keywords": [
+      "Conditional total correlation",
+      "CHSH inequality",
+      "Environmental records",
+      "Quantum coherence",
+      "Convex optimization",
+      "Lindblad dynamics"
+    ],
+    "pdf": "paper.pdf",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "abstract_tex": "Environmental records can be individually accurate while sharing the same errors. We show how retained coherence can quantify this conditional dependence without reconstructing the joint record distribution. For a balanced two-qubit state supported on \\(\\operatorname{span}\\{\\lvert00\\rangle,\\lvert11\\rangle\\}\\), we derive the sharp compatibility boundary between a retained Clauser–Horne–Shimony–Holt (CHSH) value, the accuracy of \\(R\\) designated local binary records, and their conditional total correlation. The full extremum reduces to a convex problem in \\(R+1\\) Hamming-weight probabilities, and every boundary value has a pure-state quantum realization using only the designated fragments. Its inverse gives the least dependence compatible with Bell data and separate record calibrations. For two records it is explicit; at fixed accuracy, a fixed positive Bell excess requires dependence growing at least linearly with record count. Independent monitoring reaches the zero-dependence boundary in a Lindblad dephasing limit. A shared-memory Lindblad process instead improves record accuracy at constant Bell value, with an exact time after which dependence becomes certifiable. The result quantifies departures from conditional independence in environmental recording, under trusted state-sector and readout assumptions.",
+    "license_label": "CC BY-NC 4.0",
+    "status_note": "Version 1.1.0 revises the earlier preprint titled “Certifying conditional dependence among environmental records from Bell measurements”. Earlier CC BY 4.0 permissions remain in force; unchanged figures and reference data retain CC BY 4.0, and code is MIT licensed. See the Zenodo record for the supplement and file-specific terms.",
+    "teaser": "A sharp, quantum-attainable boundary certifies dependence among calibrated environmental records from retained CHSH correlations.",
+    "description": "A sharp, quantum-attainable boundary certifies dependence among calibrated environmental records from retained CHSH correlations."
+  },
+  {
     "slug": "markovian-super-coupon-collection",
     "title": "A Gumbel law for Markovian super-coupon collection",
     "group": "Probability and algorithms",
@@ -474,26 +525,6 @@
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "abstract_tex": "For the cyclovarieties \\(C_k\\) of Cornelissen, Hokken and Ringeling, we prove \\[m(C_k)\\ge\\frac{1}{6}\\log k-\\frac{1}{4}+\\frac{1}{3k}-\\frac{1}{12k^2}\\qquad(k\\ge2).\\] Together with the known upper bound, this gives uniform logarithmic growth and proves their Conjecture 9.2.1 for every odd integer \\(n>1\\). This exposition develops the proof from its algebraic, analytic and probabilistic ingredients. We explain how cyclotomic coordinates preserve additive relations, derive the extra-variable Jensen identity with its integrability justification, count the second and fourth moments exactly, and obtain both a uniform comparison and the explicit lower bound. The monomials may be dependent. Figures illustrate the exact constructions and estimates; no numerical experiment is used as evidence for the theorem.",
     "teaser": "An expanded account of the cyclovariety Mahler measure bound, with worked examples and figures explaining the cyclotomic coordinates, Jensen identity, and moment count."
-  },
-  {
-    "slug": "environmental-records-bell-measurements",
-    "title": "Certifying conditional dependence among environmental records from Bell measurements",
-    "group": "Theoretical physics",
-    "kind": "Research preprint",
-    "version": "1.0",
-    "version_date": "2026-10-23",
-    "record": "https://zenodo.org/records/23602379",
-    "doi": "10.5281/zenodo.23602379",
-    "abstract": "Environmental records can be individually accurate while sharing the same errors. We show how retained coherence can quantify this conditional dependence without reconstructing the joint record distribution. For a balanced two-qubit state supported on span{|00⟩, |11⟩}, we derive the sharp compatibility boundary between a retained Clauser–Horne–Shimony–Holt (CHSH) value, the accuracy of R designated local binary records, and their conditional total correlation. The full extremum reduces to a convex problem in R + 1 Hamming-weight probabilities, and every boundary value has a quantum realization with an unobserved remainder. Its inverse gives the least dependence compatible with Bell data and separate record calibrations. For two records it is explicit; at fixed accuracy, a fixed positive Bell excess requires dependence growing at least linearly with record count. Independent monitoring reaches the zero-dependence boundary in a Lindblad dephasing limit. A shared-memory Lindblad process instead improves record accuracy at constant Bell value, with an exact time after which dependence becomes certifiable. The result quantifies departures from conditional independence in environmental recording, under trusted state-sector and readout assumptions.",
-    "keywords": [
-      "Lindblad dynamics",
-      "environmental records",
-      "CHSH inequality",
-      "conditional total correlation"
-    ],
-    "pdf": "paper.pdf",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "abstract_tex": "Environmental records can be individually accurate while sharing the same errors. We show how retained coherence can quantify this conditional dependence without reconstructing the joint record distribution. For a balanced two-qubit state supported on \\(\\operatorname{span}\\{\\lvert00\\rangle,\\lvert11\\rangle\\}\\), we derive the sharp compatibility boundary between a retained Clauser–Horne–Shimony–Holt (CHSH) value, the accuracy of \\(R\\) designated local binary records, and their conditional total correlation. The full extremum reduces to a convex problem in \\(R+1\\) Hamming-weight probabilities, and every boundary value has a quantum realization with an unobserved remainder. Its inverse gives the least dependence compatible with Bell data and separate record calibrations. For two records it is explicit; at fixed accuracy, a fixed positive Bell excess requires dependence growing at least linearly with record count. Independent monitoring reaches the zero-dependence boundary in a Lindblad dephasing limit. A shared-memory Lindblad process instead improves record accuracy at constant Bell value, with an exact time after which dependence becomes certifiable. The result quantifies departures from conditional independence in environmental recording, under trusted state-sector and readout assumptions."
   },
   {
     "slug": "smooth-integer-sampling",

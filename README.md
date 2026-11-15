@@ -1,6 +1,6 @@
 # Sam Vaseghi — research papers
 
-A portable, static catalogue of Sam Vaseghi's research in mathematics and theoretical physics. It contains twenty-four research preprints and two explanatory companions. Each entry has a local PDF copy matched to its CC BY 4.0 Zenodo record. Zenodo holds the archival records.
+A portable, static catalogue of Sam Vaseghi's research in mathematics and theoretical physics. It contains twenty-five research preprints and two explanatory companions. Each entry has a local PDF copy matched to its cited Zenodo version. Licences are stated per entry; version-specific notes preserve earlier permissions where applicable. Zenodo holds the archival records.
 
 ## Preview and edit
 
@@ -25,3 +25,4 @@ Each entry cites the exact archived version. Before updating a copy, check the Z
 ## Continuity
 
 Keep a second clone of this Git repository and archive substantive site releases, including rendered HTML, source data, licensed PDF bytes and checksums. The paper archives remain at Zenodo. A second trusted administrator and optional independent mirror can be added after the owner chooses them.
+
