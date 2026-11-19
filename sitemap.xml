@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://vaseghisam.github.io/</loc></url>
+  <url><loc>https://vaseghisam.github.io/papers/rank-two-lorentzian-ratios/</loc></url>
+  <url><loc>https://vaseghisam.github.io/papers/polya-tree-burnside-mixing/</loc></url>
+  <url><loc>https://vaseghisam.github.io/papers/fixed-alphabet-burnside-mixing/</loc></url>
+  <url><loc>https://vaseghisam.github.io/papers/balanced-multislice-entropy/</loc></url>
   <url><loc>https://vaseghisam.github.io/papers/sum-difference-exponents/</loc></url>
   <url><loc>https://vaseghisam.github.io/papers/environmental-records-bell-measurements/</loc></url>
   <url><loc>https://vaseghisam.github.io/papers/markovian-super-coupon-collection/</loc></url>

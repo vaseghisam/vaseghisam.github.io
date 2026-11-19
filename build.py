@@ -12,7 +12,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parent
 BASE = "https://vaseghisam.github.io"
 AUTHOR = "Sam Vaseghi"
-CATALOGUE_UPDATED = "2026-11-15"
+CATALOGUE_UPDATED = "2026-11-19"
 ORCID = "https://orcid.org/0009-0006-4105-1949"
 EMAIL = "sam.vaseghi@wisehouse-publishing.com"
 CATALOGUE_DESCRIPTION = (
@@ -164,7 +164,7 @@ def paper_page(paper: dict) -> str:
     pdf_button = f'<a class="button secondary" href="{quote(pdf)}" type="application/pdf">Read PDF copy <span aria-hidden="true">↗</span></a>' if pdf else ""
     license_url = paper.get("license_url")
     license_record = (
-        f'<div><dt>PDF license</dt><dd><a rel="license" href="{esc(license_url)}">{esc(paper.get("license_label", "CC BY 4.0"))}</a></dd></div>'
+        f'<div><dt>{esc(paper.get("license_heading", "PDF license"))}</dt><dd><a rel="license" href="{esc(license_url)}">{esc(paper.get("license_label", "CC BY 4.0"))}</a></dd></div>'
         if license_url else ""
     )
     note = f'<p class="record-note">{esc(paper["status_note"])}</p>' if paper.get("status_note") else ""
