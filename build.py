@@ -12,7 +12,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parent
 BASE = "https://vaseghisam.github.io"
 AUTHOR = "Sam Vaseghi"
-CATALOGUE_UPDATED = "2026-11-19"
+CATALOGUE_UPDATED = "2026-11-21"
 ORCID = "https://orcid.org/0009-0006-4105-1949"
 EMAIL = "sam.vaseghi@wisehouse-publishing.com"
 CATALOGUE_DESCRIPTION = (

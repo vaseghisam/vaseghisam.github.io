@@ -1,5 +1,55 @@
 [
   {
+    "slug": "hamiltonian-paths-complete-joins",
+    "title": "Reconfiguring Hamiltonian paths in complete joins",
+    "group": "Graph theory and algorithms",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-20",
+    "record": "https://zenodo.org/records/24405403",
+    "doi": "10.5281/zenodo.24405403",
+    "pdf": "paper.pdf",
+    "abstract": "When can one Hamiltonian path be transformed into another by rotations at its ends? We answer this question for the complete join of two nonempty graphs. If one part has d ≥ 1 more vertices than the other, the connected components of the rotation graph correspond bijectively to the components of a graph of (d − 1)-edge linear forests in the larger part, with one edge exchanged at each step. Whenever a Hamiltonian path exists and the part sizes differ by at most five, the rotation graph is connected and its diameter has linear order in the number of vertices. Together with Kazazi’s examples, this makes six the first imbalance at which connectivity can fail. For joins on n vertices of minimum degree at least n/2, we also obtain connectivity when d ≥ 2 and n ≥ 9d − 14. A planar example gives the exact temporary increase in the maximum leg length needed to transform one tour into another by depot-incident edits.",
+    "abstract_tex": "When can one Hamiltonian path be transformed into another by rotations at its ends? We answer this question for the complete join of two nonempty graphs. If one part has \\(d\\ge1\\) more vertices than the other, the connected components of the rotation graph correspond bijectively to the components of a graph of \\((d-1)\\)-edge linear forests in the larger part, with one edge exchanged at each step. Whenever a Hamiltonian path exists and the part sizes differ by at most five, the rotation graph is connected and its diameter has linear order in the number of vertices. Together with Kazazi’s examples, this makes six the first imbalance at which connectivity can fail. For joins on \\(n\\) vertices of minimum degree at least \\(n/2\\), we also obtain connectivity when \\(d\\ge2\\) and \\(n\\ge9d-14\\). A planar example gives the exact temporary increase in the maximum leg length needed to transform one tour into another by depot-incident edits.",
+    "keywords": [
+      "Hamiltonian paths",
+      "endpoint rotations",
+      "graph reconfiguration",
+      "graph joins",
+      "linear forests"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_label": "CC BY 4.0",
+    "license_heading": "Record license",
+    "teaser": "Whenever a complete join has a Hamiltonian path and its parts differ in size by at most five, endpoint rotations connect all such paths. Kazazi’s examples show that connectivity can first fail at six.",
+    "description": "Whenever a complete join has a Hamiltonian path and its parts differ in size by at most five, endpoint rotations connect all such paths. Kazazi’s examples show that connectivity can first fail at six."
+  },
+  {
+    "slug": "fourier-uniqueness-compressed-grids",
+    "title": "Logarithmic regularity and Fourier uniqueness on compressed square-root grids",
+    "group": "Analysis and geometry",
+    "kind": "Research preprint",
+    "version": "1.0",
+    "version_date": "2026-11-20",
+    "record": "https://zenodo.org/records/24399573",
+    "doi": "10.5281/zenodo.24399573",
+    "pdf": "paper.pdf",
+    "abstract": "When do the values of a function and its Fourier transform determine the function? We study this question on the grids Λβ = {0} ∪ {±√n/[log(e+n)]ᵝ for n ≥ 1}. For α > 1, let Xα consist of functions whose squared absolute values, and those of their Fourier transforms, are integrable with weight (1 + |x|)[log(e + |x|)]^α. If β > 1/2, simultaneous vanishing on the grid forces zero in every Xα. If 0 ≤ β < 1/2, every fixed Xα contains an infinite-dimensional real space of even Fourier-invariant functions with the prescribed zeros. On the critical grid β = 1/2, uniqueness holds for α ≥ 3/2, including equality, while the construction of Bondarenko and Seip gives nonuniqueness for α > 1 sufficiently close to 1. Thus uniqueness on the union of Xα over α > 1 holds exactly when β > 1/2. The proof combines a constrained Neumann spectral estimate with the Kulikov–Nazarov–Sodin localization method, and extends the Bondarenko–Seip kernel estimates to an enlarged tail. The exact critical regularity on β = 1/2 remains open. The results concern exact infinite sampling; no stability or finite-data reconstruction claim is made.",
+    "abstract_tex": "When do the values of a function and its Fourier transform determine the function? We study this question on the grids \\(\\Lambda_\\beta=\\{0\\}\\cup\\{\\pm\\sqrt n/[\\log(e+n)]^\\beta:n\\ge1\\}\\). For \\(\\alpha>1\\), let \\(\\mathcal X_\\alpha\\) consist of functions whose squared absolute values, and those of their Fourier transforms, are integrable with weight \\((1+|x|)[\\log(e+|x|)]^\\alpha\\). If \\(\\beta>1/2\\), simultaneous vanishing on the grid forces zero in every \\(\\mathcal X_\\alpha\\). If \\(0\\le\\beta<1/2\\), every fixed \\(\\mathcal X_\\alpha\\) contains an infinite-dimensional real space of even Fourier-invariant functions with the prescribed zeros. On the critical grid \\(\\beta=1/2\\), uniqueness holds for \\(\\alpha\\ge3/2\\), including equality, while the construction of Bondarenko and Seip gives nonuniqueness for \\(\\alpha>1\\) sufficiently close to \\(1\\). Thus uniqueness on \\(\\bigcup_{\\alpha>1}\\mathcal X_\\alpha\\) holds exactly when \\(\\beta>1/2\\). The proof combines a constrained Neumann spectral estimate with the Kulikov–Nazarov–Sodin localization method, and extends the Bondarenko–Seip kernel estimates to an enlarged tail. The exact critical regularity on \\(\\beta=1/2\\) remains open. The results concern exact infinite sampling; no stability or finite-data reconstruction claim is made.",
+    "keywords": [
+      "Fourier uniqueness",
+      "Sampling",
+      "Logarithmic Sobolev regularity",
+      "Hermite functions",
+      "Neumann bracketing"
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_label": "CC BY 4.0",
+    "license_heading": "Record license",
+    "teaser": "On the union of the logarithmic regularity classes studied here, samples of a function and its Fourier transform determine the function exactly when the grid’s compression exponent exceeds one half.",
+    "description": "On the union of the logarithmic regularity classes studied here, samples of a function and its Fourier transform determine the function exactly when the grid’s compression exponent exceeds one half."
+  },
+  {
     "slug": "rank-two-lorentzian-ratios",
     "title": "Sharp constants for bounded ratios of rank-two Lorentzian matrices",
     "group": "Matrices and spectral methods",
