@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://vaseghisam.github.io/</loc></url>
+  <url><loc>https://vaseghisam.github.io/papers/weighted-primitive-sets/</loc></url>
+  <url><loc>https://vaseghisam.github.io/papers/cubic-graph-switch-distance/</loc></url>
+  <url><loc>https://vaseghisam.github.io/papers/signed-integer-tilings/</loc></url>
+  <url><loc>https://vaseghisam.github.io/papers/local-crystal-order/</loc></url>
   <url><loc>https://vaseghisam.github.io/papers/hamiltonian-paths-complete-joins/</loc></url>
   <url><loc>https://vaseghisam.github.io/papers/fourier-uniqueness-compressed-grids/</loc></url>
   <url><loc>https://vaseghisam.github.io/papers/rank-two-lorentzian-ratios/</loc></url>

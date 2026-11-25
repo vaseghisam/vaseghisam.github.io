@@ -1,6 +1,6 @@
 # Sam Vaseghi — research papers
 
-A portable, static catalogue of Sam Vaseghi's research in mathematics and theoretical physics. It contains thirty-one research preprints and two explanatory companions. Each entry has a local PDF copy matched to its cited Zenodo version. Licences are stated per entry; version-specific notes preserve earlier permissions where applicable. Zenodo holds the archival records.
+A portable, static catalogue of Sam Vaseghi's research in mathematics and theoretical physics. It contains thirty-five research preprints and two explanatory companions. Each entry has a local PDF copy matched to its cited Zenodo version. Licences are stated per entry; version-specific notes preserve earlier permissions where applicable. Zenodo holds the archival records.
 
 ## Preview and edit
 
